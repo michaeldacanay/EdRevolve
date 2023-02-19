@@ -8,9 +8,22 @@
     padding: 6rem;
     min-height: 100vh;
     font-family: 'Nunito', sans-serif;
-  }
+}
 
-.input {
+.formInput {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    font-family: 'Nunito', sans-serif;
+    clear: both;
+}
+
+.radioBtn {
+    list-style: none;
+}
+
+/* .input {
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -23,7 +36,7 @@
   
 .input:hover {
     background-color: #0056b3;
-}
+} */
   
   .description {
     display: inherit;

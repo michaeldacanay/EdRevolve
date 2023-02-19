@@ -13,15 +13,6 @@
     background-color: #20344c;
     max-height: 100px;
 }
-
-.submitBtn {
-    position: absolute !important;
-    left: 50% !important;
-}
-
-.form {
-    max-height: 600px;
-}
   
 .description {
     display: inherit;

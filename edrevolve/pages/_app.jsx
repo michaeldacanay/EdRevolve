@@ -3,7 +3,7 @@ import App from 'next/app';
 import '../styles/globals.css'
 import "react-datepicker/dist/react-datepicker.css";
 
-const address = import.meta.env.NEXT_PUBLIC_CONVEX_URL;
+const address = process.env.NEXT_PUBLIC_CONVEX_URL;
 const convex = new ConvexReactClient(address);
 
 
