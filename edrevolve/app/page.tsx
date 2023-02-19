@@ -20,11 +20,11 @@ export default function Home() {
             priority
           />
         </Link>
-        <p>
+        <p className="text-3xl font-bold">
           Get started by editing&nbsp;
           <code className={styles.code}>app/page.tsx</code>
         </p>
-        <div>
+        <div className="bg-gray-200">
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
             target="_blank"
