@@ -11,6 +11,15 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
+        <Link href="/">
+          <Image
+            src="/EdRevolve Logo (TreeHacks).png"
+            alt="EdRevolve Logo"
+            width={180}
+            height={180}
+            priority
+          />
+        </Link>
         <p>
           Get started by editing&nbsp;
           <code className={styles.code}>app/page.tsx</code>

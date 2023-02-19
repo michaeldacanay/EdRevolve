@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import styles from './FormComponent.module.css';
 
 export default function FormComponent() {
     const [name, setName] = useState("");
@@ -14,7 +15,7 @@ export default function FormComponent() {
     const [addIn, setAddIn] = useState("");
 
     return (
-        <main>
+        <main className={styles.main}>
         <h1>Booking Details</h1>
         <div>
             <ul>
