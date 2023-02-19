@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 .main {
     display: flex;
     flex-direction: column;
@@ -5,7 +7,23 @@
     align-items: center;
     padding: 6rem;
     min-height: 100vh;
+    font-family: 'Nunito', sans-serif;
   }
+
+.input {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.input:hover {
+    background-color: #0056b3;
+}
   
   .description {
     display: inherit;
