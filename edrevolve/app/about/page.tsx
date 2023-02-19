@@ -4,6 +4,7 @@ import * as React from 'react';
 import Image from 'next/image'
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
+import styles from './page.module.css'
 
 
 const FormComponent = dynamic(() => import('../../components/FormComponent'), {
@@ -19,15 +20,18 @@ async function getDataTreehack() {
 export default function AboutPage() {
     return (
         <>
-            <Link href="/">
-                <Image
-                    src="/EdRevolve Logo (TreeHacks).png"
-                    alt="EdRevolve Logo"
-                    width={180}
-                    height={180}
-                    priority
-                />
-            </Link>
+            <div className={styles.banner}>
+                <Link href="/">
+                    <Image
+                        src="/EdRevolve Logo (TreeHacks).png"
+                        alt="EdRevolve Logo"
+                        width={180}
+                        height={180}
+                        priority
+                    />
+                </Link>
+            </div>
+            
             
             <FormComponent />
         </>
