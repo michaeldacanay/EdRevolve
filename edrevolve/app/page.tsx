@@ -1,8 +1,11 @@
 import Image from 'next/image'
-import { Inter } from '@next/font/google'
+import Link from 'next/link';
+import { Inter, Nunito } from '@next/font/google'
 import styles from './page.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
+const nunito = Nunito({ subsets: ['latin'] })
+
 
 export default function Home() {
   return (
@@ -82,10 +85,14 @@ export default function Home() {
             Deploy <span>-&gt;</span>
           </h2>
           <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            Instantly deploy your Next.js site to a shareable URL with Vercel. test
           </p>
         </a>
       </div>
+
+      <Link href="/about">
+        <button>Go to About Page</button>
+      </Link>
     </main>
   )
 }
