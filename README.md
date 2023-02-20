@@ -11,5 +11,5 @@ To run, open two terminals:
 - `npx convex dev`
 
 
-
+Devpost [here](https://devpost.com/software/edrevolve?ref_content=user-portfolio&ref_feature=in_progress)
 
